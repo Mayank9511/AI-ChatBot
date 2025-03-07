@@ -32,8 +32,8 @@ const HeroSection = () => {
             </div>
             <br />
             <div>
-              Contact us, if you want to integrate this type of ChatBot in you website or
-              application for <b>FREE</b>.
+              Contact us, if you want to integrate this type of ChatBot in you
+              website or application for <b>FREE</b>.
             </div>
             <div className="flex justify-center mt-6">
               <button
@@ -46,8 +46,8 @@ const HeroSection = () => {
             </div>
           </p>
         </div>
-        <div className="w-full md:w-1/2 flex justify-center items-center h-full">
-          <img src={image} className="max-w-[70%] h-auto" />
+        <div className="w-full md:w-1/2 flex justify-center items-center h-full md:mt-0 mt-5">
+          <img src={image} className="max-w-full h-auto md:max-w-[70%]" />
         </div>
       </div>
     </div>
