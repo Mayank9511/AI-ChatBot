@@ -17,7 +17,7 @@ const ContactUs = () => {
             </span>
           </h1>
         </div>
-        <div className="flex justify-center w-full md:w-1/3">
+        <div className="flex justify-center w-full md:w-1/2">
           <div className="mt-10 md:mt-20">
             <a
               className=" text-lg md:text-xl font-light py-5"
