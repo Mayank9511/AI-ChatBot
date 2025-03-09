@@ -18,17 +18,15 @@ const HeroSection = () => {
       <div className="flex flex-col justify-between mt-3 md:flex-row gap-5 w-full p-10 md:p-20">
         <div className="w-full pt-5 md:w-1/2">
           <p className="mt-2 text-lg text-left text-neutral-500 max-w-4xl">
-            Hey there! 🐱‍🏍 This website showcases an AI-powered chatbot
-            designed to answer common questions about you, your product, your
-            company, or the services you offer. By automating responses to FAQs
-            and basic user inquiries, it helps reduce the need for human
-            intervention.
+            This website showcases an AI-powered chatbot designed to answer
+            common questions about you, your product, your company, or the
+            services you offer. By automating responses to FAQs and basic user
+            inquiries, it helps reduce the need for human intervention.
             <br />
             <br />
             <div className=" text-blue-500">
               The chatbot used in this website brings a touch of humor to
-              conversations and avoids educational topics. It can also share
-              some details about me if you ask!
+              conversations. It can also share some details about me if you ask!
             </div>
             <br />
             <div>
@@ -46,8 +44,8 @@ const HeroSection = () => {
             </div>
           </p>
         </div>
-        <div className="w-full md:w-1/2 flex justify-center items-center h-full md:mt-0 mt-5">
-          <img src={image} className="max-w-full h-auto md:max-w-[70%]" />
+        <div className="w-full md:w-1/2 flex justify-center items-center md:mt-0 mt-5">
+          <img src={image} className="md:max-w-[70%]" />
         </div>
       </div>
     </div>

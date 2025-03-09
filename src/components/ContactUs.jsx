@@ -17,8 +17,8 @@ const ContactUs = () => {
             </span>
           </h1>
         </div>
-        <div className="ml-20 w-full md:w-1/3">
-          <div className="flex-row mt-10 md:mt-20">
+        <div className="flex justify-center w-full md:w-1/3">
+          <div className="mt-10 md:mt-20">
             <a
               className=" text-lg md:text-xl font-light py-5"
               href="mailto:gupta.mayank.mg02@gmail.com"
